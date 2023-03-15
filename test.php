@@ -2,6 +2,7 @@
 function get_user($mysqli, $email, $password)
 {
     // This is the functions to get the list of user from the database
+    // new commetns
 
     // STEP 2
     $email_escaped = mysqli_real_escape_string($mysqli, $email);
